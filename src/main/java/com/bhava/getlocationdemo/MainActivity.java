@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        //If ur device is less than mashmellow
+        //If ur device is less than marshmellow
 
         if(Build.VERSION.SDK_INT<23){
 
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         else {
-            // else if mashmellow or above....
+            // else if marshmellow or above....
             if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
 
                 //ask for permission
